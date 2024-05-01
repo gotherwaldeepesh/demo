@@ -9,7 +9,7 @@ def my_func():
 @app.route('/home')
 def my_func2():
     return "<h1> Hello home </h1>"
-
+print('hello')
 
 if __name__ == "__main__":
     app.run()
